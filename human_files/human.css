@@ -1,0 +1,53 @@
+@media all {
+
+#svg, #body {
+  height: 1125px;
+}
+
+#svg {
+  position: absolute;
+  width: 850px;
+}
+
+#body {
+  position: absolute;
+  filter: grayscale(100%);
+}
+
+polygon {
+  border: 10px solid black;
+}
+
+#btn-container {
+  position: fixed;
+  left: 1000px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.color-select-btn {
+  border: none;
+  height: 20px;
+  cursor: pointer;
+}
+
+#current-color {
+  margin-bottom: 20px;
+  cursor: default;
+  background-color: green;
+}
+
+#green {
+  background-color: green;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#color-body-btn {
+  margin-top: 20px;
+}
+
+}
+

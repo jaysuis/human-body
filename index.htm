@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>Human Body</title>
+
+    <link rel="stylesheet" href="./human_files/human.css" type="text/css" media="all" charset="utf-8"> 
+  </head>
+  <body>
+    <div id="btn-container">
+
+      <p>Color Select</p>
+      <button id="current-color" class="color-select-btn"></button>
+      <button id="green" class="color-select-btn"></button>
+      <button id="pink" class="color-select-btn"></button>
+
+      <input type="button" value="Toggle body color" name="" id="color-body-btn">
+    </div>
+    <img id="body" src="./human_files/body.jpg">
+    <svg id="svg">
+      <defs>
+        <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+          <fegaussianblur in="SourceGraphic" stdDeviation="15"></fegaussianblur>
+        </filter>
+      </defs>
+    <polygon points="379,254 384,331 399,340 402,250" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="329,330 310,337 274,361 263,399 245,450 226,511 248,549 279,521 317,510 340,505 333,470 339,440 347,396 353,354 345,332" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="452,327 446,387 444,448 462,475 461,519 490,521 527,543 551,558 560,531 548,462 539,402 481,326" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="404,414 380,438 359,483 369,502 420,518 449,510 448,473 431,456 416,432" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="350,527 444,537 480,537 434,575 379,612 331,633 266,644 275,566 294,537 324,526" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="508,558 524,560 537,570 545,590 542,608 538,618 523,616 521,605 518,590 515,575" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="476,560 489,567 506,575 509,596 506,617 479,641 448,663 422,661 406,655 385,643 389,629 407,614 423,613 441,604 452,583 471,568" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="281,653 293,677 302,680 305,701 323,687 313,670 311,650 311,641" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="469,685 489,676 497,659 497,647 467,674" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="374,951 374,972 402,991 432,980 440,957 406,950" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="376,887 398,888 437,891 448,908 433,928 412,940 379,935 362,918 359,906 365,891" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="498,715 500,729 504,766 500,798 482,816 473,834 464,843 445,850 437,867 468,875 494,864 521,822 530,786 536,768 533,729 533,711 533,669 504,707" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon><polygon points="329,729 366,733 420,722 474,722 479,762 472,802 430,823 371,834 343,815 331,803 317,759 317,738" fill-opacity="0" filter="url(#blur)" style="fill: green;"></polygon></svg>
+
+    <script src="./human_files/human.js"></script>
+  
+
+</body></html>
