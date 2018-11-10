@@ -1,12 +1,11 @@
 @media all {
 
-#svg, #body {
-  height: 1125px;
+body {
+  display: flex;
 }
 
-#svg {
-  position: absolute;
-  width: 850px;
+#svg, #body {
+  height: 1125px;
 }
 
 #body {
@@ -14,13 +13,18 @@
   filter: grayscale(100%);
 }
 
+#svg {
+  position: relative;
+  width: 800px;
+  margin-right: 57px;
+}
+
 polygon {
   border: 10px solid black;
 }
 
 #btn-container {
-  position: fixed;
-  left: 1000px;
+  /* position: fixed; */
   display: inline-flex;
   flex-direction: column;
 }
@@ -49,5 +53,11 @@ polygon {
   margin-top: 20px;
 }
 
+}
+
+@media print {
+  #btn-container {
+    display: none;
+  }
 }
 
